@@ -39,9 +39,9 @@ h1, h2, h3 {
 }
 
 img {
-  max-width: 150%;
+  max-width: 100%;
   height: auto;
-  border-radius: 50px; /* rounded corners */
+  border-radius: 70px; /* rounded corners */
 }
 
 .nav-links {
@@ -117,7 +117,7 @@ img {
 }
 
 .card:hover, .blog-card:hover {
-  transform: translateY(-20px);
+  transform: translateY(-300px);
   box-shadow: 0 10px 25px #0e050514;
 }
 
