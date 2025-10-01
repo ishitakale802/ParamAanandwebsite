@@ -196,5 +196,41 @@ img {
 
 .cta .btn {
   margin-top: 20px;
-  backg
+  background:linear-gradient(135deg, #35968b, #fcaf2d);;
+}
+
+@media (max-width : 768px) {
+  .navbar {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  img {
+    max-width: 100%; /* prevent overflow */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta h2 {
+    font-size: 1.5rem;
+  }
 }
